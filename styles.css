@@ -3,6 +3,12 @@
     padding: 0%;
 }
 
+body{
+    background-image: url(../Fitcampus/Images/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .frontpage{
     display: flex;
 
@@ -14,6 +20,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: #b4ac00;
 }
 
 .menu{
@@ -22,7 +29,9 @@ a{
     border: 4px;
     border-radius: 4px;
     border-color: black;
-    background-color: rgb(88, 87, 87);
+    margin-top: 20px;
+    padding-left: 40px;
+    /* background-color: rgb(88, 87, 87); */
 }
 
 .frontitems{
@@ -36,6 +45,9 @@ h1.name{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 20px;
+    margin-left: -73px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .frontitems-but{
@@ -55,34 +67,32 @@ h1.name{
     transition: 0.5s;
 }
 
-.frontcontents{
-    background-color: black;
+.fronthead{
+    /* background-color: black; */
     width: 100%;
     color: white;
     /* text-align: center; */
 }
 
+.right-home{
+    display: flex;
+    flex-direction: column;
+}
+
 .name-cont{
-    margin-top: 100px;
+    margin-top: 70px;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
-    margin-left: 60px;
+    margin-left: 148px;
+    margin-bottom: 40px;
 }
 
-.name-cont-but{
-    margin-top: 60px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    margin-left: 60px;
-    background-color: red;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.name-cont-but:hover{
-    color: black;
+.frontcontents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 h2.name-cont{
@@ -112,12 +122,14 @@ h2.name-cont{
 
 .homepage{
     display: flex;
-    background-image: url("Fitcampus/BG.jpg")
+    background-image: url(../Fitcampus/Images/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .welcome{
     width: 700px;
-    background-color: black;
+    /* background-color: black; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -129,7 +141,7 @@ h2.name-cont{
 h1.wecome{
     font-size: 60px;
     /* text-align: center; */
-    /* padding-left: 30px; */
+    padding-left: 50px;
     font-family: 'Glory', sans-serif;
     opacity: 0.7;
 }
@@ -137,23 +149,23 @@ h1.wecome{
 h2.wecome{
     padding-top: 40px;
     font-size: 30px;
-    /* padding-left: 70px; */
+    padding-left: 100px;
     /* text-align: center; */
     font-family: 'Glory', sans-serif;
 }
 
 .wecome-fit{
-    color: #219ebc;
+    color: #af855f;
     font-size: 60px;
     /* margin-left: 30px; */
-    /* padding-left: 30px; */
+    padding-left: 50px;
     padding-top: 5px;
     font-family: 'Glory', sans-serif;
 }
 
 .second-half{
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,7 +177,8 @@ h2.wecome{
     justify-content: center;
     align-items: center;
     background-color: gray;
-    opacity: 0.6;
+    border-radius: 20px;
+    opacity: 0.5;
     height: 400px;
     width: 600px;
 }
@@ -174,6 +187,7 @@ h2.wecome{
     font-size: 50px;
     padding-bottom: 40px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .login-inputdet{
@@ -182,6 +196,7 @@ h2.wecome{
     padding-top: 50px;
     padding-bottom: 40px;
     font-size: 20px;
+    /* z-index: 10; */
 }
 
 .login-input{
@@ -194,7 +209,7 @@ h2.wecome{
     cursor: pointer;
     padding: 5px;
     font-size: 20px;
-    background-color: blue;
+    background-color: #0100ff;
     color: white;
     width: 90px;
     border-radius: 8px;
@@ -206,6 +221,8 @@ h2.wecome{
     text-align: end;
     padding-top: 5px;
     font-size: 20px;
+    z-index: 10;
+    color: black;
 }
 
 .sign-forget{
