@@ -12,8 +12,12 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .menu{
-    width: 300px;
+    width: 350px;
     height: 100vh;
     border: 4px;
     border-radius: 4px;
@@ -27,23 +31,58 @@ ul{
     
 }
 
+h1.name{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .frontitems-but{
-    background-color: aqua;
+    background-color: black;
     cursor: pointer;
     padding: 10px 20px 10px 20px;
+    width: 250px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.frontitems-but:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
 
 .frontcontents{
     background-color: black;
     width: 100%;
     color: white;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .name-cont{
     margin-top: 100px;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
+    margin-left: 60px;
+}
+
+.name-cont-but{
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-left: 60px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.name-cont-but:hover{
+    color: black;
 }
 
 h2.name-cont{
