@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.frontpage{
+    display: flex;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.menu{
+    width: 300px;
+    height: 100vh;
+    border: 4px;
+    border-radius: 4px;
+    border-color: black;
+    background-color: rgb(88, 87, 87);
+}
+
+.frontitems{
+    /* cursor: pointer; */
+    margin-top: 20px;
+    margin-left: 10px;
+    /* padding: 10px 20px 10px 20px; */
+    
+}
+
+.frontitems-but{
+    background-color: aqua;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+}
+
+.frontcontents{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.name-cont{
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+h2.name-cont{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.login-button{
+    margin-top: 40px;
+    row-gap: 10px;
+}
+
+.login{
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.google-login{
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
