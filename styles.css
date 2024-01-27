@@ -22,10 +22,8 @@ ul{
 }
 
 .frontitems{
-    /* cursor: pointer; */
     margin-top: 20px;
     margin-left: 10px;
-    /* padding: 10px 20px 10px 20px; */
     
 }
 
@@ -71,4 +69,107 @@ h2.name-cont{
     padding: 10px 50px 10px 50px;
     margin-left: 10px;
     cursor: pointer;
+} 
+
+.homepage{
+    display: flex;
+    background-image: url("Fitcampus/BG.jpg")
+}
+
+.welcome{
+    width: 700px;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+h1.wecome{
+    font-size: 60px;
+    /* text-align: center; */
+    /* padding-left: 30px; */
+    font-family: 'Glory', sans-serif;
+    opacity: 0.7;
+}
+
+h2.wecome{
+    padding-top: 40px;
+    font-size: 30px;
+    /* padding-left: 70px; */
+    /* text-align: center; */
+    font-family: 'Glory', sans-serif;
+}
+
+.wecome-fit{
+    color: #219ebc;
+    font-size: 60px;
+    /* margin-left: 30px; */
+    /* padding-left: 30px; */
+    padding-top: 5px;
+    font-family: 'Glory', sans-serif;
+}
+
+.second-half{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    opacity: 0.6;
+    height: 400px;
+    width: 600px;
+}
+
+.login{
+    font-size: 50px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-inputdet{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.login-input{
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.sign-in{
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 90px;
+    border-radius: 8px;
+    margin-right: 185px;
+    z-index: 2;
+}
+
+.forget{
+    text-align: end;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.sign-forget{
+    display: flex;
+    flex-direction: row-reverse;
 }
