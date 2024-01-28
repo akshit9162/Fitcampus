@@ -31,7 +31,7 @@ a{
     border-color: black;
     padding-top: 20px;
     padding-left: 40px;
-    background-color: rgb(88, 87, 87);
+    background-color: rgb(117, 114, 114);
     opacity: 0.4;
     /* z-index: 3; */
 }
@@ -83,17 +83,22 @@ h1.name{
 }
 
 .name-cont{
-    margin-top: 70px;
-    font-family: 'Comic Neue', cursive;
-    font-size: 50px;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 85px;
     margin-left: 148px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: lighter;
+    color: wheat;
 }
 
 .frontcontents{
     display: flex;
     margin-top: 70px;
     justify-content: center;
+    align-items: center;
+    margin-left: 50px;
     height: 100%;
     width: 100%;
 }
@@ -106,9 +111,12 @@ h2.name-cont{
 
 h2.name-cont-review{
     margin-left: 148px;
-    margin-bottom: 2px;
-    font-size: 40px;
+    margin-bottom: -40px;
+    font-size: 80px;
     font-family: 'Comic Neue', cursive;
+    text-align: center;
+    font-weight: lighter;
+    color: wheat;
 }
 
 .login-button{
@@ -316,6 +324,41 @@ p.mail{
     margin-top: 20px;
     font-family: 'Comic Neue', cursive;
     color: whitesmoke;
+}
+
+.right-nuttrack{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.sup{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: 'Comic Neue', cursive;
+    color: wheat;
+}
+
+.food-table{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.nameless{
+    color: wheat;
+    margin-left: 230px;
+    text-align: center;
+}
+
+.schedule-name{
+    text-align: center;
+    
+}
+
+.lmao{
+    width: 100%;
 }
 
 .details{
